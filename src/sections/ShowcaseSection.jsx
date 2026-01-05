@@ -37,15 +37,14 @@ const ShowcaseSection = () => {
         <div className="showcaselayout">
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/hasaki.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Cosmetic Retail Software - E-commerce Platform
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                A software built with DotNet, C#, SQL for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -54,17 +53,17 @@ const ShowcaseSection = () => {
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/images/node-project.png"
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Retail Management Platform</h2>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/movieSite.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Movie Streaming Service Website</h2>
             </div>
           </div>
         </div>
