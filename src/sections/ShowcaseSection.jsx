@@ -37,15 +37,14 @@ const ShowcaseSection = () => {
         <div className="showcaselayout">
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/hasaki.png" alt="Ryde App Interface" />
+              <img src="/images/gym.jpg" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
-                Cosmetic Retail Software - E-commerce Platform
+                Workout Support Website
               </h2>
               <p className="text-white-50 md:text-xl">
-                A software built with DotNet, C#, SQL for a fast,
-                user-friendly experience.
+                A workout support web application that automatically counts exercise repetitions using computer vision.
               </p>
             </div>
           </div>

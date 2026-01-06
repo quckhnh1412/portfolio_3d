@@ -11,6 +11,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
+    {
+    name: "Github",
+    link: "https://github.com/quckhnh1412",
+  },
 
 ];
 
