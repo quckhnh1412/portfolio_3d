@@ -4,7 +4,7 @@ const navLinks = [
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "Projects",
     link: "#experience",
   },
   {
@@ -192,13 +192,15 @@ const expCards = [
     review:
       "Quốc Khánh’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    logoPath: "/images/php.png",
+    title: "Movie Streaming Web",
+    date: "September 2022 - December 2022",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed a movie streaming and management website allowing users to browse, watch, and manage film content.",
+      "Built server-side functionality using PHP to handle movie data, user interactions, and database operations.",
+      "Implemented dynamic user interfaces with HTML and JavaScript for searching, filtering, and displaying films.",
+      "Designed and maintained a film database including movies, genres, and related metadata.",
+      "Ensured smooth navigation and reliable data flow between the frontend and backend.",
     ],
   },
 ];
