@@ -56,9 +56,7 @@ const ExperienceSection = () => {
                     {expCards.map(( card,index) => (
                         <div key={card.title} className="exp-card-wrapper">
                             <div className="xl:w-2/6">
-                            <GlowCard card={card} index={index} >
-                                <img src={card.imgPath} alt={card.title} />
-                            </GlowCard>
+         
                             </div>
                             <div className="xl:w-4/6 ">
                             <div className="flex items-start ">

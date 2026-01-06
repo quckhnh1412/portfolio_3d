@@ -11,10 +11,7 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+
 ];
 
 const words = [
@@ -133,13 +130,13 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Three JS Developer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
-    rotation: [0, 0, 0],
+    rotation: [0, 0, -Math.PI / 4],
   },
   {
-    name: "Project Manager",
+    name: "GIT Management",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -150,28 +147,46 @@ const expCards = [
   {
     review:
       "Quốc Khánh brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    imgPath: "/images/reactjs.png",
+    logoPath: "/images/reactjs.png",
+    title: "React JS Portfolio Website",
+    date: "January 2026",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+  "Designed and developed an interactive 3D portfolio website using React and React Three Fiber.",
+  "Implemented 3D scenes, animations, and smooth user interactions to enhance visual engagement.",
+  "Integrated EmailJS to enable direct contact form submissions without a backend server.",
+  "Optimized performance and responsiveness across devices and browsers.",
     ],
+  },
+  {
+   
+    logoPath: "/images/logo1.png",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/python.png",
+    title: "Workout Support Website",
+    date: "May 2025 - July 2025",
+     responsibilities: [
+  "Developed a workout support web application that automatically counts exercise repetitions using computer vision.",
+  "Implemented real-time pose detection and form analysis using MediaPipe to check exercise correctness.",
+  "Built a Python Flask API to process camera input and return feedback to the web interface.",
+  "Provided instant visual and textual feedback to help users improve exercise form and performance.",
+  ]
+
   },
   {
     review:
       "Quốc Khánh’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
+    logoPath: "/images/node-js.png",
+    title: "Retail Management Website",
+    date: "September 2024 - December 2024",
+      responsibilities: [
+      "Developed a retail management web application enabling sellers to select products, create invoices, and manage sales records.",
+      "Built backend services using Node.js to handle product, invoice, and transaction logic.",
+      "Designed and managed MongoDB schemas for storing product, customer, and invoice data.",
+      "Created responsive HTML-based user interfaces for efficient seller operations.",
+      "Implemented CRUD functionalities for products and invoices with secure data handling.",
+    ]
   },
   {
     review:
@@ -249,24 +264,10 @@ const testimonials = [
 ];
 
 const socialImgs = [
-  {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
-  },
+
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/khanh-bui-quoc-3b6582260/",
     imgPath: "/images/linkedin.png",
   },
 ];
